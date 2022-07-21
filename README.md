@@ -1,37 +1,137 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html>
 
-You can use the [editor on GitHub](https://github.com/shaka404/shaka404.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+<head>
+    <link rel="stylesheet" href="port.css">
+    <title>Portfolio</title>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+</head>
 
-### Markdown
+<body>
+    <header id="main-header">
+        <nav id="nav-bar">
+            <a href="#" class="portfolio">Port<span>folio</span></a>
+            <ul class="main-nav-item">
+                <li>
+                    <a href="#about">About</a>
+                </li>
+                <li>
+                    <a href="#my-skills">Skills</a>
+                </li>
+                
+            </ul>
+        </nav>
+  <p>-------------------------------</p>
+  <p></p>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+        <div class="header-content">
+            <div class="header-intro">
+                <p class="header-item intro">Hello, my name is</p>
+                <h1 class="header-item name">Daniyal Khan</h1>
+                <h2 class="header-item work">
+                    Frontend Web Developer<span id="line">&#124;</span>
+                </h2>
+                
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+                <div class="header-photo">
+                    <img src="daniyal.jpg" alt="My Photo" class="my-photo" />
+                </div>
+                <div class="fancy-button">
+                    <button class="header-button">Download CV</button>
+                    <button class="header-button contact">Contact</button>
+                </div>
+    </header>
+    <h1 id="about" class="section-header">About me</h1>
 
-- Bulleted
-- List
+    <section class="container">
+        <div class="profile-photo">
+            <img src="about2.jpg" alt="profilephoto" />
+        </div>
 
-1. Numbered
-2. List
+        <div class="about-me-info">
+            <h2>Frontend Web Developer</h2>
+            <p class="info">
+                Hi, my name is Muhammad Daniyal Khan, I am a Front end web developer with good experience in Single
+                Page Applications with HTML & CSS for Frontend Development.
+            </p>
+            <div class="info-list">
+                <ul>
+                    <li><span>Name:</span> Muhammad Daniyal Khan</li>
+                    <li><span>Degree:</span> Bachelor</li>
+                    <li><span>Phone:</span> 03245732614</li>
+                    <li><span>Nationality:</span> Pakistan</li>
+                </ul>
 
-**Bold** and _Italic_ and `Code` text
+                <ul>
+                     
+                    <li><span>Experience:</span> 1 year</li>
+                    <li><span>Email:</span> imshaka69@gmail.com</li>
+                </ul>
+            </div>
+            <div about-me-button>
+                <button class="button">Hire Me</button>
+                <button class="button learn-more">Learn More</button>
+            </div>
 
-[Link](url) and ![Image](src)
-```
+    </section>
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+    <h1 id="my-skills" class="section-header">My Skills</h1>
+    <section class="skills-section">
+        <main class="skills-flex">
+            <section class="list-container">
+                <div class="skills-list">
+                    <p>HTML</p>
+                    <p>90%</p>
+                </div>
+                <div class="skill-container">
+                    <div class="skills html"></div>
+                </div>
+            </section>
 
-### Jekyll Themes
+            <section class="list-container">
+                <div class="skills-list">
+                    <p>CSS</p>
+                    <p>65%</p>
+                </div>
+                <div class="skill-container">
+                    <div class="skills css"></div>
+                </div>
+            </section>
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/shaka404/shaka404.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+            
 
-### Support or Contact
+            <section class="list-container">
+                <div class="skills-list">
+                    <p>Javascript</p>
+                    <p>40%</p>
+                </div>
+                <div class="skill-container">
+                    <div class="skills javascript"></div>
+                </div>
+            </section>
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+            
+        </main>
+    </section>
+    <footer class="main-footer">
+        <div class="logo">
+            <a href="https://twitter.com/MdKhan_404" target="_blank">
+                <img src="twitter.jfif" alt="twitter" />
+            </a>
+
+
+            <a href="https://www.facebook.com/shaka404" target="_blank">
+                <img src="facebook.jfif" alt="facebook" />
+            </a>
+
+
+        </div>
+
+        <p>copyright &#169; 2022</p>
+    </footer>
+
+</body>
+
+</html>![about2](https://user-images.githubusercontent.com/109692266/180206956-1d9ed845-1049-478e-aa92-fffdc8cde02c.jpg)
+![daniyal](https://user-images.githubusercontent.com/109692266/180206963-4c7aa675-9e4b-494b-872b-068cab857ee9.jpg)
